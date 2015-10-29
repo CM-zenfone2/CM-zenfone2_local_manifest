@@ -1,3 +1,15 @@
+# This file is out of date right now, I'm just documenting the
+# cherry-picks I have in my cm-13.09 build right now and I will
+# let jrior001 fix rhis later
+
+# build/: 3f9c62e build: allow block-based builds even without building a recovery patch
+# frameworks/base: d42af38b aapt: Fix compiler warning (clobbered by longjmp)
+# external/apache-http/: c696125 Revert "Add TCM (TCP Connection Management) support"
+# external/okhttp/: 40d34df Revert "Add TCM (TCP Connection Management) support"
+# vendor/cm: 527d828 [DO NOT MERGE] disable overlays and sepolicies that don't yet exist
+
+# ----- begin old file ----
+
 # Current List of cherry-pick needed for Zenfone2
 # repopick in this order
 
