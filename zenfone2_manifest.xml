@@ -8,7 +8,6 @@
   <remove-project name="platform/hardware/intel/common/utils" path="hardware/intel/common/utils" />
   <remove-project name="platform/hardware/intel/common/wrs_omxil_core" path="hardware/intel/common/wrs_omxil_core" />
   <remove-project name="platform/hardware/intel/img/hwcomposer" path="hardware/intel/img/hwcomposer" />
-  <remove-project name="platform/hardware/intel/img/libdrm" path="hardware/intel/img/libdrm" />
   <remove-project name="platform/hardware/intel/img/psb_video" path="hardware/intel/img/psb_video" />
 
   <!-- ADD CM-ZENFONE2 PROJECTS -->
@@ -19,7 +18,6 @@
   <project name="CM-zenfone2/android_hardware_intel_common_utils" path="hardware/intel/common/utils" remote="github" />
   <project name="CM-zenfone2/android_hardware_intel_common_wrs_omxil_core" path="hardware/intel/common/wrs_omxil_core" remote="github" />
   <project name="CM-zenfone2/android_hardware_intel_img_hwcomposer" path="hardware/intel/img/hwcomposer" remote="github" />
-  <project name="CM-zenfone2/android_hardware_intel_img_libdrm" path="hardware/intel/img/libdrm" remote="github" />
   <project name="CM-zenfone2/android_hardware_intel_img_psb_video" path="hardware/intel/img/psb_video" remote="github" />
 
   <!-- CM-ZENFONE2 DEVICE PROJECTS -->
@@ -28,5 +26,4 @@
   <project name="CM-zenfone2/android_device_asus_mofd-common" path="device/asus/mofd-common" remote="github" />
   <project name="CM-zenfone2/android_kernel_asus_moorefield" path="kernel/asus/moorefield" remote="github" />
   <project name="CM-zenfone2/proprietary_vendor_asus" path="vendor/asus" remote="github" />
-
 </manifest>
