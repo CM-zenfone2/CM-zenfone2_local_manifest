@@ -1,5 +1,5 @@
 # build/: 3f9c62e build: allow block-based builds even without building a recovery patch
-repo pick 112427
+repopick 112427
 
 # frameworks/base: d42af38b aapt: Fix compiler warning (clobbered by longjmp)
 repopick 115794
@@ -12,6 +12,9 @@ repopick 115798
 
 # vendor/cm: 527d828 [DO NOT MERGE] disable overlays and sepolicies that don't yet exist
 repopick 111336
+
+# All of the above in one command
+repopick 112427 115794 115797 115798 111336
 
 #repopick -t zenfone2_bringup_M  // patches for adb, sideload, audio, ril, serial#, virtual sensors
 #
