@@ -1,21 +1,16 @@
+# NOT NEEDED FOR BUILD BUT LIKELY STILL GOOD IDEA
 # build/: 3f9c62e build: allow block-based builds even without building a recovery patch
-repopick 112427
+# repopick 112427
 
 # frameworks/base: d42af38b aapt: Fix compiler warning (clobbered by longjmp)
 repopick 115794
-
-# external/apache-http/: c696125 Revert "Add TCM (TCP Connection Management) support"
-repopick 115797
-
-# external/okhttp/: 40d34df Revert "Add TCM (TCP Connection Management) support"
-repopick 115798
 
 # vendor/cm: 527d828 [DO NOT MERGE] disable overlays and sepolicies that don't yet exist
 repopick 111336
 
 # All of the above in one command
-repopick 112427 115794 115797 115798 111336
+repopick 115794 111336
 
-#repopick -t zenfone2_bringup_M  // patches for adb, sideload, audio, ril, serial#, virtual sensors
+repopick -t zenfone2__m_bringup  // patches for audio, serial#, virtual sensors
 #
 #repopick -t quick-charge-ui  // patches for quick charge icons
