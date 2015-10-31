@@ -11,6 +11,6 @@ repopick 111336
 # All of the above in one command
 repopick 115794 111336
 
-repopick -t zenfone2__m_bringup  // patches for audio, serial#, virtual sensors
+repopick -t zenfone2_m_bringup  // patches for audio, serial#, virtual sensors
 #
 #repopick -t quick-charge-ui  // patches for quick charge icons
