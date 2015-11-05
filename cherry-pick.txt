@@ -1,16 +1,17 @@
-# NOT NEEDED FOR BUILD BUT LIKELY STILL GOOD IDEA
-# build/: 3f9c62e build: allow block-based builds even without building a recovery patch
-# repopick 112427
-
-# frameworks/base: d42af38b aapt: Fix compiler warning (clobbered by longjmp)
-repopick 115794
-
-# vendor/cm: 527d828 [DO NOT MERGE] disable overlays and sepolicies that don't yet exist
-repopick 111336
-
-# All of the above in one command
-repopick 115794 111336
-
-repopick -t zenfone2_m_bringup  // patches for audio, serial#, virtual sensors
+################################################################
 #
-#repopick -t quick-charge-ui  // patches for quick charge icons
+# Update 11/4/15 : All trees, kernel, vendor blobs and patches
+# have been moved into CM's mainline project. All contents at
+# CM-zenfone2 are now deprecated. Nothing more to see here, 
+# please move along and thanks for playing. The cherry-pick's
+# below are still relevant and are posted on the CM gerrit site
+#
+################################################################
+
+# Current List of cherry-pick needed for Zenfone2
+# repopick in this order
+
+# patches for serial#, virtual sensors
+# display, camera metadata
+
+repopick -t zenfone2_bringup  
