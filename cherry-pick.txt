@@ -1,6 +1,21 @@
+################################################################
+#
+# Update 11/4/15 : All trees, kernel, vendor blobs and patches
+# have been moved into CM's mainline project. All contents at
+# CM-zenfone2 are now deprecated. Nothing more to see here, 
+# please move along and thanks for playing. The cherry-pick's
+# below are still relevant and are posted on the CM gerrit site
+#
+################################################################
+
 # Current List of cherry-pick needed for Zenfone2
 # repopick in this order
 
-repopick -t zenfone2_bringup  // patches for adb, sideload, audio, ril, serial#, virtual sensors
+# patches for adb, sideload, audio, ril, serial#, virtual sensors
+# display, camera metadata & drm 
 
-repopick -t quick-charge-ui  // patches for quick charge icons
+repopick -t zenfone2_bringup  
+
+# patches for quick charge icons
+
+repopick -t quick-charge-ui
